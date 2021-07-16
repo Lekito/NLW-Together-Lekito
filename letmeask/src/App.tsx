@@ -5,7 +5,7 @@ import { NewRoom } from "./pages/NewRoom";
 
 /* a propriedade exact serva para somente deixar exatamente a pagina unica. Ou seja, 
  se não tivesse exact dentro do 'Route path="/" ' quando fosse utilizar path abaixo apareciria as duas telas. Outr a forma de utilizar esse parametro é só escrever 'exact' , pois
- o true já fica implicito. */
+ o true já fica implicito. O exact é boleano*/
 function App() {
   return (
     <BrowserRouter>
